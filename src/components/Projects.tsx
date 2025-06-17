@@ -2,63 +2,63 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "React와 Node.js로 구축된 풀스택 전자상거래 플랫폼입니다. 결제 시스템, 재고 관리, 사용자 인증 등의 기능을 포함합니다.",
+      title: "NAC 학부모 App",
+      description: "NAC 학부모를 위한 모바일 애플리케이션 백엔드 개발. API, WebView, 결제 시스템을 구현하여 학부모와 학습자 간의 소통을 원활하게 지원합니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["반응형 디자인", "실시간 재고 관리", "안전한 결제 시스템", "관리자 대시보드"]
+      technologies: ["Java", "RestAPI", "PostgreSQL", "결제시스템", "WebView"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["학부모-학습자 소통", "결제 시스템", "실시간 학습 현황", "모바일 최적화"]
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "팀 협업을 위한 태스크 관리 애플리케이션입니다. 드래그 앤 드롭, 실시간 업데이트, 알림 기능을 제공합니다.",
+      title: "CANB & IDN 학습 플랫폼",
+      description: "Big 5 OCEAN 기반의 학습 플랫폼 개발. 개인 성향 분석을 통한 맞춤형 학습 서비스를 제공하는 백엔드 시스템을 구축했습니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Socket.io", "Tailwind"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["실시간 협업", "칸반 보드", "파일 첨부", "알림 시스템"]
+      technologies: ["Java", "PostgreSQL", "RestAPI", "MyBatis", "Big5 OCEAN"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["성향 분석", "맞춤형 학습", "학습 데이터 분석", "다국가 지원"]
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "날씨 API를 활용한 인터랙티브 날씨 대시보드입니다. 지역별 날씨 정보와 7일 예보를 제공합니다.",
+      title: "AI Vocab App - Wordit",
+      description: "AI 기반 어휘 학습 애플리케이션의 백엔드 API 개발. 사용자 학습 패턴을 분석하여 효과적인 어휘 학습 경험을 제공합니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["Vue.js", "Express.js", "Chart.js", "OpenWeather API"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["지역별 검색", "시각적 차트", "7일 예보", "즐겨찾기"]
+      technologies: ["Java", "RestAPI", "AI Integration", "PostgreSQL", "MyBatis"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["AI 어휘 추천", "학습 패턴 분석", "진도 관리", "개인화 학습"]
     },
     {
       id: 4,
-      title: "Blog Platform",
-      description: "마크다운 에디터를 포함한 개인 블로그 플랫폼입니다. SEO 최적화와 댓글 시스템을 구현했습니다.",
+      title: "학습지원솔루션 Alex 시리즈",
+      description: "CANB Alex, Vietnam Alex, Indonesia Alex 등 다국가 학습 지원 솔루션 개발. API 및 ExtJs 기반 관리자 시스템을 구축했습니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Prisma", "MySQL", "NextAuth.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["마크다운 에디터", "SEO 최적화", "댓글 시스템", "태그 관리"]
+      technologies: ["Java", "ExtJs", "RestAPI", "PostgreSQL", "다국가 지원"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["다국가 서비스", "관리자 대시보드", "학습 콘텐츠 관리", "실시간 모니터링"]
     },
     {
       id: 5,
-      title: "Real-time Chat App",
-      description: "Socket.io를 사용한 실시간 채팅 애플리케이션입니다. 그룹 채팅, 파일 공유, 온라인 상태 표시 기능을 포함합니다.",
+      title: "도서관 통합 관리 시스템",
+      description: "경기도사이버도서관, 성남시도서관 등 다수의 도서관 시스템 개발 및 유지보수. RFID 시스템과 연동된 통합 도서관 관리 솔루션입니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Socket.io", "Node.js", "Redis", "AWS S3"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["실시간 메시징", "파일 공유", "그룹 채팅", "알림"]
+      technologies: ["Java", "PostgreSQL", "RFID", "CMS", "반응형 웹"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["RFID 연동", "도서 관리", "사용자 서비스", "통계 및 분석"]
     },
     {
       id: 6,
-      title: "Portfolio Website",
-      description: "이 포트폴리오 웹사이트입니다. Next.js와 Tailwind CSS를 사용하여 반응형으로 제작했습니다.",
+      title: "교육통합시스템",
+      description: "교육기관을 위한 통합 관리 시스템 개발. 사서교육시스템, 교육관리시스템 등 다양한 교육 플랫폼의 고도화 작업을 수행했습니다.",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      features: ["반응형 디자인", "다크 모드", "애니메이션", "SEO 최적화"]
+      technologies: ["Java", "PostgreSQL", "MyBatis", "교육시스템", "웹개발"],
+      githubUrl: "https://github.com/LeeKangMo",
+      liveUrl: "#",
+      features: ["교육 과정 관리", "수강생 관리", "평가 시스템", "리포팅"]
     }
   ]
 
@@ -68,9 +68,8 @@ export default function Projects() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Featured Projects
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            다양한 기술 스택을 활용하여 구현한 프로젝트들입니다. 각 프로젝트는 실제 문제를 해결하고자 만들어졌습니다.
+          </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            8년 10개월간 다양한 도메인에서 진행한 주요 프로젝트들입니다. 백엔드 API 개발과 시스템 구축을 중심으로 한 실무 경험을 소개합니다.
           </p>
         </div>
 
@@ -152,7 +151,7 @@ export default function Projects() {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/LeeKangMo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-blue-600 text-base font-medium rounded-md text-blue-600 bg-transparent hover:bg-blue-50 dark:hover:bg-gray-800 transition-colors"
@@ -160,7 +159,7 @@ export default function Projects() {
             <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
             </svg>
-            모든 프로젝트 보기
+            GitHub에서 더 많은 프로젝트 보기
           </a>
         </div>
       </div>

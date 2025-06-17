@@ -5,67 +5,63 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             About Me
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            저는 사용자 중심의 웹 애플리케이션을 개발하는 것을 좋아하는 풀스택 개발자입니다.
+          </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            8년 10개월 경력의 백엔드/서버 개발자로서 API 개발과 웹 서비스 구축을 전문으로 합니다.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-              개발자로서의 여정
+          <div className="space-y-6">            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+              백엔드 개발자로서의 여정
             </h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              웹 개발에 관심을 가지게 된 이후, 끊임없이 새로운 기술을 학습하고 
-              실무에 적용하는 것을 즐기고 있습니다. 특히 사용자 경험을 개선하고 
-              성능을 최적화하는 데 관심이 많습니다.
+              2016년 개발자로 시작하여 현재까지 8년 10개월간 백엔드/서버 개발에 집중해왔습니다. 
+              폴리인스퍼레이션에서 과장/팀원으로 재직 중이며, RestAPI 개발 및 웹 프로젝트 관리를 담당하고 있습니다.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              프론트엔드와 백엔드 모두에 경험이 있으며, 모던 웹 기술 스택을 
-              활용하여 확장 가능하고 유지보수성이 좋은 애플리케이션을 구축합니다.
+              Java, PostgreSQL, JavaScript, MyBatis 등의 기술을 활용하여 안정적이고 확장 가능한 
+              서버 시스템을 구축합니다. 항상 최신 기술 동향을 주시하며 끊임없이 학습하는 자세를 갖추고 있습니다.
             </p>
             
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                주요 경험
+                주요 경력
               </h4>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
-                  React 및 Next.js를 활용한 SPA 개발
+                  폴리인스퍼레이션 개발2팀 과장 (2021.02 ~ 현재)
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
-                  Node.js 및 Express.js 백엔드 API 개발
+                  제이넷 백엔드 개발자 (2017.10 ~ 2020.11)
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
-                  데이터베이스 설계 및 최적화
+                  포씨소프트 응용SW개발자 (2016.07 ~ 2017.09)
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
-                  클라우드 서비스를 활용한 배포 및 운영
+                  중부대학교 토목공학과 졸업 (2016.03)
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-700 rounded-lg p-8">
-            <div className="space-y-6">
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white text-center">
+            <div className="space-y-6">              <h4 className="text-xl font-semibold text-gray-900 dark:text-white text-center">
                 개발 철학
               </h4>
               <div className="space-y-4">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-blue-600 dark:bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
                     <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h5 className="font-semibold text-gray-900 dark:text-white">사용자 중심</h5>
+                  <h5 className="font-semibold text-gray-900 dark:text-white">안정성 우선</h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    항상 사용자의 관점에서 생각하며 직관적인 인터페이스를 설계합니다.
+                    신뢰할 수 있는 백엔드 시스템과 API를 구축합니다.
                   </p>
                 </div>
                 
@@ -77,7 +73,7 @@ export default function About() {
                   </div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">성능 최적화</h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    빠르고 효율적인 애플리케이션을 위해 성능 최적화에 집중합니다.
+                    데이터베이스 쿼리 최적화와 서버 성능 향상에 집중합니다.
                   </p>
                 </div>
 

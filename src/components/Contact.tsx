@@ -31,9 +31,8 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Get In Touch
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            새로운 프로젝트나 협업 기회에 대해 언제든 연락주세요. 함께 멋진 것을 만들어봅시다!
+          </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            새로운 프로젝트나 협업 기회에 대해 언제든 연락주세요. 8년 10개월 경력의 백엔드 개발자로서 함께 일할 기회를 기다립니다!
           </p>
         </div>
 
@@ -53,7 +52,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white">이메일</h4>
-                    <p className="text-gray-600 dark:text-gray-300">your.email@example.com</p>
+                    <p className="text-gray-600 dark:text-gray-300">car********@naver.com</p>
                   </div>
                 </div>
 
@@ -65,7 +64,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white">전화번호</h4>
-                    <p className="text-gray-600 dark:text-gray-300">+82 10-1234-5678</p>
+                    <p className="text-gray-600 dark:text-gray-300">010-****-0849</p>
                   </div>
                 </div>
 
@@ -78,7 +77,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white">위치</h4>
-                    <p className="text-gray-600 dark:text-gray-300">서울, 대한민국</p>
+                    <p className="text-gray-600 dark:text-gray-300">서울 송파구</p>
                   </div>
                 </div>
               </div>
@@ -90,7 +89,7 @@ export default function Contact() {
               </h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/LeeKangMo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"

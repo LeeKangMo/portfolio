@@ -3,13 +3,12 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white">
+          <div className="space-y-4">            <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white">
               안녕하세요, 저는{' '}
-              <span className="text-blue-600 dark:text-blue-400">개발자</span>입니다
+              <span className="text-blue-600 dark:text-blue-400">이강모</span>입니다
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              풀스택 개발자로서 사용자 경험을 중시하는 웹 애플리케이션을 만듭니다
+              8년 10개월 경력의 백엔드/서버 개발자로서 RestAPI와 웹 서비스 구축을 전문으로 합니다
             </p>
           </div>
           
@@ -30,7 +29,7 @@ export default function Hero() {
 
           <div className="flex justify-center space-x-6 pt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/LeeKangMo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
@@ -50,7 +49,7 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:car********@naver.com"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
             >
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

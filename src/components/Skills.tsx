@@ -1,33 +1,32 @@
-export default function Skills() {
-  const skillCategories = [
-    {
-      title: "Frontend",
-      skills: [
-        { name: "React", level: 90, color: "bg-blue-500" },
-        { name: "Next.js", level: 85, color: "bg-gray-700" },
-        { name: "TypeScript", level: 80, color: "bg-blue-600" },
-        { name: "Tailwind CSS", level: 95, color: "bg-cyan-500" },
-        { name: "Vue.js", level: 75, color: "bg-green-500" },
-      ]
-    },
+export default function Skills() {  const skillCategories = [
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 85, color: "bg-green-600" },
-        { name: "Express.js", level: 80, color: "bg-gray-600" },
-        { name: "Python", level: 75, color: "bg-yellow-500" },
-        { name: "PostgreSQL", level: 70, color: "bg-blue-700" },
-        { name: "MongoDB", level: 75, color: "bg-green-700" },
+        { name: "Java", level: 95, color: "bg-red-600" },
+        { name: "RestAPI", level: 95, color: "bg-green-600" },
+        { name: "PostgreSQL", level: 90, color: "bg-blue-700" },
+        { name: "JavaScript", level: 85, color: "bg-yellow-500" },
+        { name: "MyBatis", level: 85, color: "bg-purple-600" },
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Frontend",
+      skills: [
+        { name: "HTML/CSS", level: 80, color: "bg-orange-500" },
+        { name: "JavaScript", level: 85, color: "bg-yellow-500" },
+        { name: "React", level: 75, color: "bg-blue-500" },
+        { name: "Vue.js", level: 70, color: "bg-green-500" },
+        { name: "ExtJs", level: 80, color: "bg-gray-600" },
+      ]
+    },
+    {
+      title: "Tools & Infrastructure",
       skills: [
         { name: "Git", level: 90, color: "bg-orange-500" },
-        { name: "Docker", level: 70, color: "bg-blue-400" },
-        { name: "AWS", level: 65, color: "bg-orange-400" },
-        { name: "Figma", level: 80, color: "bg-purple-500" },
-        { name: "Jest", level: 75, color: "bg-red-500" },
+        { name: "Linux", level: 85, color: "bg-gray-700" },
+        { name: "AWS", level: 75, color: "bg-orange-400" },
+        { name: "Apache", level: 80, color: "bg-red-500" },
+        { name: "Tomcat", level: 85, color: "bg-yellow-600" },
       ]
     }
   ]
@@ -38,9 +37,8 @@ export default function Skills() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Skills & Technologies
-          </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            다양한 기술 스택을 활용하여 효율적이고 확장 가능한 솔루션을 개발합니다.
+          </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            8년 10개월간 축적된 백엔드 개발 경험과 다양한 기술 스택으로 안정적인 시스템을 구축합니다.
           </p>
         </div>
 
