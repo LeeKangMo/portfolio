@@ -1,11 +1,10 @@
 export default function Projects() {
-  const projects = [
-    {
+  const projects = [    {
       id: 1,
       title: "NAC 학부모 App",
       description: "NAC 학부모를 위한 모바일 애플리케이션 백엔드 개발. API, WebView, 결제 시스템을 구현하여 학부모와 학습자 간의 소통을 원활하게 지원합니다.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "RestAPI", "PostgreSQL", "결제시스템", "WebView"],
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      technologies: ["Java", "RestAPI", "MSSQL", "결제시스템", "WebView"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
       features: ["학부모-학습자 소통", "결제 시스템", "실시간 학습 현황", "모바일 최적화"]
@@ -14,8 +13,8 @@ export default function Projects() {
       id: 2,
       title: "CANB & IDN 학습 플랫폼",
       description: "Big 5 OCEAN 기반의 학습 플랫폼 개발. 개인 성향 분석을 통한 맞춤형 학습 서비스를 제공하는 백엔드 시스템을 구축했습니다.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "PostgreSQL", "RestAPI", "MyBatis", "Big5 OCEAN"],
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      technologies: ["Java", "MSSQL", "RestAPI", "MyBatis", "Big5 OCEAN"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
       features: ["성향 분석", "맞춤형 학습", "학습 데이터 분석", "다국가 지원"]
@@ -24,7 +23,7 @@ export default function Projects() {
       id: 3,
       title: "AI Vocab App - Wordit",
       description: "AI 기반 어휘 학습 애플리케이션의 백엔드 API 개발. 사용자 학습 패턴을 분석하여 효과적인 어휘 학습 경험을 제공합니다.",
-      image: "/api/placeholder/600/400",
+      image: "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       technologies: ["Java", "RestAPI", "AI Integration", "PostgreSQL", "MyBatis"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
@@ -34,8 +33,8 @@ export default function Projects() {
       id: 4,
       title: "학습지원솔루션 Alex 시리즈",
       description: "CANB Alex, Vietnam Alex, Indonesia Alex 등 다국가 학습 지원 솔루션 개발. API 및 ExtJs 기반 관리자 시스템을 구축했습니다.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "ExtJs", "RestAPI", "PostgreSQL", "다국가 지원"],
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      technologies: ["Java", "ExtJs", "RestAPI", "MSSQL", "다국가 지원"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
       features: ["다국가 서비스", "관리자 대시보드", "학습 콘텐츠 관리", "실시간 모니터링"]
@@ -44,18 +43,17 @@ export default function Projects() {
       id: 5,
       title: "도서관 통합 관리 시스템",
       description: "경기도사이버도서관, 성남시도서관 등 다수의 도서관 시스템 개발 및 유지보수. RFID 시스템과 연동된 통합 도서관 관리 솔루션입니다.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "PostgreSQL", "RFID", "CMS", "반응형 웹"],
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      technologies: ["Java", "MSSQL", "RFID", "CMS", "반응형 웹"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
       features: ["RFID 연동", "도서 관리", "사용자 서비스", "통계 및 분석"]
-    },
-    {
+    },    {
       id: 6,
       title: "교육통합시스템",
       description: "교육기관을 위한 통합 관리 시스템 개발. 사서교육시스템, 교육관리시스템 등 다양한 교육 플랫폼의 고도화 작업을 수행했습니다.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "PostgreSQL", "MyBatis", "교육시스템", "웹개발"],
+      image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      technologies: ["Java", "MSSQL", "MyBatis", "교육시스템", "웹개발"],
       githubUrl: "https://github.com/LeeKangMo",
       liveUrl: "#",
       features: ["교육 과정 관리", "수강생 관리", "평가 시스템", "리포팅"]
@@ -75,14 +73,12 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="relative h-48 bg-gray-200 dark:bg-gray-700">
-                {/* Placeholder for project image */}
-                <div className="w-full h-full flex items-center justify-center text-gray-500 dark:text-gray-400">
-                  <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
+            <div key={project.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">              <div className="relative h-48 bg-gray-200 dark:bg-gray-700">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               <div className="p-6">

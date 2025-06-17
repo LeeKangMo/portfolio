@@ -4,19 +4,18 @@ export default function Skills() {  const skillCategories = [
       skills: [
         { name: "Java", level: 95, color: "bg-red-600" },
         { name: "RestAPI", level: 95, color: "bg-green-600" },
-        { name: "PostgreSQL", level: 90, color: "bg-blue-700" },
+        { name: "MSSQL", level: 90, color: "bg-blue-700" },
         { name: "JavaScript", level: 85, color: "bg-yellow-500" },
         { name: "MyBatis", level: 85, color: "bg-purple-600" },
       ]
-    },
-    {
+    },    {
       title: "Frontend",
       skills: [
         { name: "HTML/CSS", level: 80, color: "bg-orange-500" },
         { name: "JavaScript", level: 85, color: "bg-yellow-500" },
-        { name: "React", level: 75, color: "bg-blue-500" },
-        { name: "Vue.js", level: 70, color: "bg-green-500" },
+        { name: "JSP", level: 80, color: "bg-red-400" },
         { name: "ExtJs", level: 80, color: "bg-gray-600" },
+        { name: "jQuery", level: 75, color: "bg-blue-400" },
       ]
     },
     {
