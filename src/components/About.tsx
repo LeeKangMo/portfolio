@@ -6,16 +6,15 @@ export default function About() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             About Me
           </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            8년 10개월 경력의 백엔드/서버 개발자로서 API 개발과 웹 서비스 구축을 전문으로 합니다.
+            8년 7개월 경력의 백엔드/서버 개발자로서 API 개발과 웹 서비스 구축을 전문으로 합니다.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
               백엔드 개발자로서의 여정
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              2016년 개발자로 시작하여 현재까지 8년 10개월간 백엔드/서버 개발에 집중해왔습니다. 
+            </h3>            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+              2016년 개발자로 시작하여 현재까지 8년 7개월간 백엔드/서버 개발에 집중해왔습니다. 
               폴리인스퍼레이션에서 과장/팀원으로 재직 중이며, RestAPI 개발 및 웹 프로젝트 관리를 담당하고 있습니다.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
@@ -26,8 +25,7 @@ export default function About() {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
                 주요 경력
-              </h4>
-              <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+              </h4>              <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
                   폴리인스퍼레이션 개발2팀 과장 (2021.02 ~ 현재)
@@ -39,6 +37,10 @@ export default function About() {
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
                   포씨소프트 응용SW개발자 (2016.07 ~ 2017.09)
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  쌍용교육센터 Java 웹 개발 과정 수료 (2017.01 ~ 2017.06)
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>

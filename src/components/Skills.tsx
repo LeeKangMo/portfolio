@@ -11,19 +11,18 @@ export default function Skills() {  const skillCategories = [
     },    {
       title: "Frontend",
       skills: [
-        { name: "HTML/CSS", level: 80, color: "bg-orange-500" },
+        { name: "HTML/CSS", level: 85, color: "bg-orange-500" },
         { name: "JavaScript", level: 85, color: "bg-yellow-500" },
-        { name: "JSP", level: 80, color: "bg-red-400" },
-        { name: "ExtJs", level: 80, color: "bg-gray-600" },
-        { name: "jQuery", level: 75, color: "bg-blue-400" },
+        { name: "JSP", level: 90, color: "bg-red-400" },
+        { name: "ExtJs", level: 85, color: "bg-gray-600" },
+        { name: "jQuery", level: 80, color: "bg-blue-400" },
       ]
     },
     {
-      title: "Tools & Infrastructure",
-      skills: [
+      title: "Tools & Infrastructure",      skills: [
         { name: "Git", level: 90, color: "bg-orange-500" },
         { name: "Linux", level: 85, color: "bg-gray-700" },
-        { name: "AWS", level: 75, color: "bg-orange-400" },
+        { name: "Nginx", level: 80, color: "bg-green-500" },
         { name: "Apache", level: 80, color: "bg-red-500" },
         { name: "Tomcat", level: 85, color: "bg-yellow-600" },
       ]
@@ -33,11 +32,10 @@ export default function Skills() {  const skillCategories = [
   return (
     <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Skills & Technologies
+        <div className="text-center mb-16">          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            기술 스택
           </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            8년 10개월간 축적된 백엔드 개발 경험과 다양한 기술 스택으로 안정적인 시스템을 구축합니다.
+            8년 7개월간 축적된 백엔드 개발 경험과 다양한 기술 스택으로 안정적인 시스템을 구축합니다.
           </p>
         </div>
 
@@ -75,28 +73,28 @@ export default function Skills() {  const skillCategories = [
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white text-center mb-8">
             기술 스택별 경험
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white dark:bg-gray-900 rounded-lg p-6 shadow-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">            <div className="bg-white dark:bg-gray-900 rounded-lg p-6 shadow-lg">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                 Frontend Development
               </h4>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                <li>• React Hooks 및 Context API를 활용한 상태 관리</li>
-                <li>• Next.js SSR/SSG를 통한 SEO 최적화</li>
-                <li>• 반응형 웹 디자인 및 모바일 퍼스트 접근</li>
-                <li>• Webpack, Vite 등 번들러 설정 및 최적화</li>
+                <li>• JSP 기반 웹 페이지 개발 및 유지보수</li>
+                <li>• ExtJs 프레임워크를 활용한 RIA(Rich Internet Application) 구현</li>
+                <li>• jQuery를 이용한 동적 UI 및 Ajax 통신 구현</li>
+                <li>• HTML5/CSS3를 활용한 반응형 웹 디자인</li>
+                <li>• JavaScript ES6+ 문법 및 DOM 조작</li>
               </ul>
             </div>
-            
-            <div className="bg-white dark:bg-gray-900 rounded-lg p-6 shadow-lg">
+              <div className="bg-white dark:bg-gray-900 rounded-lg p-6 shadow-lg">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                 Backend Development
               </h4>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+                <li>• Java Spring Framework 기반 웹 애플리케이션 개발</li>
                 <li>• RESTful API 설계 및 구현</li>
-                <li>• 데이터베이스 스키마 설계 및 쿼리 최적화</li>
-                <li>• JWT 인증 및 보안 구현</li>
-                <li>• 마이크로서비스 아키텍처 경험</li>
+                <li>• MyBatis를 활용한 데이터베이스 연동</li>
+                <li>• MSSQL, Oracle, PostgreSQL 데이터베이스 관리</li>
+                <li>• Apache Tomcat 서버 구축 및 운영</li>
               </ul>
             </div>
           </div>
