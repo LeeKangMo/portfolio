@@ -32,7 +32,7 @@ export default function Contact() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Get In Touch
           </h2>          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            새로운 프로젝트나 협업 기회에 대해 언제든 연락주세요. 8년 10개월 경력의 백엔드 개발자로서 함께 일할 기회를 기다립니다!
+            새로운 프로젝트나 협업 기회에 대해 언제든 연락주세요. 8년 7개월 경력의 백엔드 개발자로서 함께 일할 기회를 기다립니다!
           </p>
         </div>
 
